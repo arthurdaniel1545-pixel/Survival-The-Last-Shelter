@@ -29,12 +29,13 @@ O projeto não dependerá de recursos pagos, créditos de IA ou compilação em 
 
 Este repositório começa limpo. O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado como base.
 
-A escolha da engine está feita, mas ainda não existe protótipo jogável nem APK validado. A próxima etapa é confirmar o pipeline de build Android gratuito e compatível com o fluxo de trabalho pelo celular/GitHub.
+A escolha da engine está feita, mas ainda não existe protótipo jogável nem APK validado. A próxima etapa é validar o pipeline de build Android pelo Unity Build Automation, que tem franquia gratuita e bloqueia o serviço ao atingir os limites sem cartão cadastrado.
 
 ## Documentação
 
 - [Conceito e sistemas](docs/CONCEPT.md)
 - [Plano de desenvolvimento](docs/ROADMAP.md)
+- [Pipeline gratuito de build Android](docs/BUILD-PIPELINE.md)
 
 ## Princípios técnicos
 
