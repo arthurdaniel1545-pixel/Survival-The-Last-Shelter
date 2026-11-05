@@ -43,8 +43,12 @@ O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado
 - [Plano de desenvolvimento](docs/ROADMAP.md)
 - [Pipeline gratuito de build Android](docs/BUILD-PIPELINE.md)
 - [Pipeline de assets e servidores MCP](docs/ASSET-PIPELINE.md)
+- [Personagens e equipamentos planejados](docs/CHARACTERS-EQUIPMENT.md)
 - [Instruções para agentes de IA](AGENTS.md)
 - [Skill de busca e integração de assets](skills/survival-game-assets/SKILL.md)
+- [Skill de desenvolvimento de sistemas Unity para sobrevivência](skills/unity-survival-systems/SKILL.md)
+- [Skills upstream de game dev (Unity e disciplinas)](https://github.com/gamedev-skills/awesome-gamedev-agent-skills)
+- [Exemplos oficiais Unity Character Controller](https://github.com/Unity-Technologies/CharacterControllerSamples)
 
 ## Princípios técnicos
 
