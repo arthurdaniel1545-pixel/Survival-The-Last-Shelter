@@ -1,15 +1,19 @@
 # Survival: The Last Shelter
 
-Projeto de jogo de sobrevivência em mundo aberto pós-apocalíptico, com visual 3D low-poly moderno e foco inicial em Android de entrada.
+Projeto de sandbox de sobrevivência em mundo aberto pós-apocalíptico, com visual 3D low-poly moderno e foco inicial em Android de entrada.
 
-## Visão do projeto
+## Mundo obrigatório
 
-Explorar cidades abandonadas e florestas, coletar recursos, fabricar itens, construir abrigos e sobreviver a ameaças que reagem de maneiras diferentes ao jogador.
+- Exatamente 3 cidades principais.
+- Exatamente 2 grandes florestas.
+- Quantidade variável/aleatória de outros pontos de interesse, estruturas secundárias, ruínas, acampamentos e locais de saque.
+- A geração aleatória nunca pode remover as cinco regiões obrigatórias.
+- O mundo gerado deve ser persistido no salvamento para manter o mesmo mapa ao retornar.
 
 ## Pilares
 
 - Sobrevivência: vida, fome, sede e energia.
-- Exploração: áreas naturais e urbanas com locais para descobrir.
+- Exploração livre em sandbox.
 - Coleta e construção: madeira, pedra, metal, casas, muros, torres e bunkers.
 - Equipamentos: mochilas, capacetes, coletes, roupas de proteção e armas encontradas no mundo.
 - Inimigos distintos: zumbi comum, mutante resistente e criatura cega que caça pelo som.
