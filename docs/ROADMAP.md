@@ -12,6 +12,8 @@
 
 **Critério de saída:** decisão técnica baseada em teste mínimo real. O pipeline precisa gerar um APK Android sem depender de serviço pago ou de cartão.
 
+**Risco técnico a resolver antes do protótipo:** a documentação atual do GameCI informa que a ativação manual de licenças Unity Personal deixou de ser suportada, embora descreva um procedimento alternativo. Não presumir que o build remoto funcionará: testar a ativação e a compilação com a licença gratuita primeiro. Não pedir senha da conta Unity nem configurar cobrança para contornar esse bloqueio.
+
 ## Fase 1 — Protótipo de sobrevivência offline
 
 - [ ] Projeto Unity 6 com configuração Android validada.
