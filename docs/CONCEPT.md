@@ -2,14 +2,24 @@
 
 ## Experiência central
 
-Sobreviver em um mundo pós-apocalíptico perigoso. O jogador explora, coleta materiais, encontra equipamentos e transforma um abrigo simples em uma base segura. O perigo deve incentivar planejamento, furtividade e decisões de risco.
+Sandbox de sobrevivência em um mundo aberto pós-apocalíptico. O jogador tem liberdade para explorar, coletar materiais, encontrar equipamentos, fabricar itens e construir sua própria base. O mundo deve permitir diferentes estilos de jogo, sem obrigar o jogador a seguir uma campanha linear.
 
-## Mundo
+## Mundo aberto e geração
 
-- Regiões iniciais: floresta e zona urbana abandonada.
-- Locais exploráveis: casas, lojas, depósitos e estruturas em ruínas.
-- Ciclo de dia e noite, com mudanças de visibilidade e risco.
-- Escopo inicial controlado: uma área pequena e densa, expansível depois de validada a performance.
+O mapa deve ser sandbox e conter obrigatoriamente:
+- **Exatamente 3 cidades** principais, abandonadas e exploráveis.
+- **Exatamente 2 grandes florestas** como regiões naturais principais.
+
+Além dessas cinco regiões obrigatórias, o mundo terá conteúdo variável:
+- Quantidade aleatória de pontos de interesse, como postos, fazendas, acampamentos, depósitos, estações e construções isoladas.
+- Quantidade aleatória de estruturas secundárias, ruínas, estradas, abrigos e locais de saque.
+- Distribuição e composição de recursos com variação por partida ou por mundo salvo.
+
+A aleatoriedade nunca pode remover ou reduzir as 3 cidades e as 2 florestas obrigatórias. O gerador deve evitar posicionamentos impossíveis, sobreposição de regiões e locais inacessíveis. O mundo gerado deve ser salvo para manter o mesmo mapa quando o jogador retornar à partida.
+
+As cidades e florestas devem ser distintas entre si, com identidade visual, recursos, perigos e oportunidades próprias. Casas, lojas, depósitos e outras estruturas das cidades devem poder ser exploradas quando fizer sentido para o escopo e desempenho.
+
+O tamanho do mapa e a densidade de objetos devem ser definidos após testes reais de desempenho em Android de entrada. Usar carregamento por regiões/streaming quando viável, sem tentar manter todo o cenário detalhado carregado ao mesmo tempo.
 
 ## Necessidades do jogador
 
