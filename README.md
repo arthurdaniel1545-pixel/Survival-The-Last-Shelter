@@ -19,11 +19,17 @@ Projeto de sandbox de sobrevivência em mundo aberto pós-apocalíptico, com vis
 - Inimigos distintos: zumbi comum, mutante resistente e criatura cega que caça pelo som.
 - Modos: campanha solo offline como primeira entrega; multiplayer online planejado para uma fase posterior.
 
+## Engine escolhida
+
+**Unity 6 Personal** será a engine do projeto. O plano Personal é gratuito e não exige cartão de crédito para uso dentro dos critérios de elegibilidade da Unity.
+
+O projeto não dependerá de recursos pagos, créditos de IA ou compilação em nuvem paga. Antes de iniciar o protótipo, será validado um caminho gratuito de geração do APK Android usando o repositório e automação disponível.
+
 ## Estado atual
 
 Este repositório começa limpo. O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado como base.
 
-Ainda não foi fixada uma engine. A escolha será feita após avaliar compatibilidade com Android, desempenho no Moto G24, exportação e fluxo de trabalho gratuito.
+A escolha da engine está feita, mas ainda não existe protótipo jogável nem APK validado. A próxima etapa é confirmar o pipeline de build Android gratuito e compatível com o fluxo de trabalho pelo celular/GitHub.
 
 ## Documentação
 
@@ -36,3 +42,4 @@ Ainda não foi fixada uma engine. A escolha será feita após avaliar compatibil
 - Não depender de serviços pagos ou conexão permanente para o modo solo.
 - Construir e testar em etapas pequenas; não chamar documentação de jogo jogável.
 - Manter a arquitetura preparada para multiplayer, sem prometer recursos online antes de existir infraestrutura.
+- Não ativar cobrança por uso nem cadastrar cartão para contornar limites gratuitos.
