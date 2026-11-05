@@ -1,6 +1,6 @@
 # Agent instructions — Survival: The Last Shelter
 
-Read `README.md`, `docs/CONCEPT.md`, `docs/ROADMAP.md`, and `skills/survival-game-assets/SKILL.md` before changing project architecture or sourcing assets.
+Read `README.md`, `docs/CONCEPT.md`, `docs/ROADMAP.md`, `docs/CHARACTERS-EQUIPMENT.md`, `skills/survival-game-assets/SKILL.md`, and `skills/unity-survival-systems/SKILL.md` before changing project architecture, implementing gameplay, or sourcing assets.
 
 ## Non-negotiable project rules
 - Unity 6.3 LTS; do not switch to Godot or another engine.
@@ -13,7 +13,7 @@ Read `README.md`, `docs/CONCEPT.md`, `docs/ROADMAP.md`, and `skills/survival-gam
 - Do not use the discarded repository `zombie-survival-godot.` as a base.
 
 ## Asset policy
-Use the `survival-game-assets` skill for searching and importing assets. Prefer CC0. Keep licence and creator records. Reject unclear licences and ripped game assets. Optimise all models and textures for Android.
+Use `unity-survival-systems` for gameplay architecture and implementation; use `survival-game-assets` for searching and importing assets. Consult the upstream game-development skill repository and official Unity samples linked in the skills, but adapt only relevant, licence-compatible material rather than copying entire projects. Prefer CC0. Keep licence and creator records. Reject unclear licences and ripped game assets. Optimise all models and textures for Android.
 
 ## Workflow
 - Work in small, reviewable commits.
