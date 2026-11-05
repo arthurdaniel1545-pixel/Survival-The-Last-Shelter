@@ -21,15 +21,21 @@ Projeto de sandbox de sobrevivência em mundo aberto pós-apocalíptico, com vis
 
 ## Engine escolhida
 
-**Unity 6 Personal** será a engine do projeto. O plano Personal é gratuito e não exige cartão de crédito para uso dentro dos critérios de elegibilidade da Unity.
+**Unity 6 Personal (Unity 6.3 LTS)** será a engine do projeto. O plano Personal é gratuito para usuários que atendem aos critérios de elegibilidade da Unity.
 
-O projeto não dependerá de recursos pagos, créditos de IA ou compilação em nuvem paga. Antes de iniciar o protótipo, será validado um caminho gratuito de geração do APK Android usando o repositório e automação disponível.
+O projeto não dependerá de recursos pagos, créditos de IA ou cobrança por uso. A compilação Android ainda precisa ser validada por um build real e gratuito.
 
 ## Estado atual
 
-Este repositório começa limpo. O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado como base.
+O repositório contém agora a estrutura inicial de um projeto Unity, com versão do Editor registrada, manifesto mínimo de pacotes, regras de Git e scripts iniciais para:
 
-A escolha da engine está feita, mas ainda não existe protótipo jogável nem APK validado. A próxima etapa é validar o pipeline de build Android pelo Unity Build Automation, que tem franquia gratuita e bloqueia o serviço ao atingir os limites sem cartão cadastrado.
+- Representar cidades, florestas e pontos de interesse.
+- Gerar um layout determinístico com exatamente 3 cidades e 2 florestas obrigatórias, além de pontos extras variáveis.
+- Salvar e carregar o layout localmente em JSON, preservando o mapa gerado.
+
+**Ainda não existe cena jogável, personagem, sistemas completos de sobrevivência, APK ou teste no Moto G24.** Os scripts foram adicionados ao repositório, mas ainda precisam ser importados e compilados pelo Unity Editor.
+
+O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado como base.
 
 ## Documentação
 
