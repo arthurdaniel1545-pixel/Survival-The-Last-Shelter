@@ -4,6 +4,15 @@
 
 Sandbox de sobrevivência em um mundo aberto pós-apocalíptico. O jogador tem liberdade para explorar, coletar materiais, encontrar equipamentos, fabricar itens e construir sua própria base. O mundo deve permitir diferentes estilos de jogo, sem obrigar o jogador a seguir uma campanha linear.
 
+## Engine e custo
+
+- Engine escolhida: **Unity 6 Personal**.
+- O plano Personal é gratuito para quem atende aos critérios de elegibilidade da Unity e não exige cartão de crédito.
+- Não usar serviços pagos, créditos de IA pagos ou automações que exijam cadastrar cartão.
+- O pipeline de compilação Android precisa ser validado dentro dos limites gratuitos antes de depender dele.
+- Unity Build Automation/serviços de nuvem são opcionais; se os limites gratuitos acabarem, o projeto deve parar e aguardar a renovação, sem ativar cobrança automática.
+- O uso de Unity 6 não significa que o editor possa ser executado diretamente no Moto G24. O fluxo de criação e build deve ser resolvido por ferramentas compatíveis com o celular e pelo GitHub.
+
 ## Mundo aberto e geração
 
 O mapa deve ser sandbox e conter obrigatoriamente:
