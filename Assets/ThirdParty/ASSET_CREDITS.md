@@ -20,6 +20,23 @@ Notes:
 - Steel Helmet, Ski Backpack and Plaster Jacket are static props; wearable attachment points and skinning must be configured in Unity.
 - No Unity import, prefab creation, or runtime test has been performed; Unity Editor is unavailable in this environment.
 
+## Interiors/Exterior batch 3 (2026-11-05)
+
+| Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
+|---|---|---|---|---|---|---|
+| Bathroom Bathtub | 3D Assets | https://3dassets.dev/assets/suburban-outbreak-interiors-bathroom-bathtub-6b2566c4 | CC0 | No | Assets/Art/Environment/Interiors/Bathroom/Bathtub.glb | 2026-11-05 |
+| Bathroom Toilet Pan | 3D Assets | https://3dassets.dev/assets/suburban-outbreak-interiors-bathroom-toilet-pan-7e096456 | CC0 | No | Assets/Art/Environment/Interiors/Bathroom/ToiletPan.glb | 2026-11-05 |
+| Bathroom Shower Tray | 3D Assets | https://3dassets.dev/assets/suburban-outbreak-interiors-bathroom-shower-tray-bed62fd8 | CC0 | No | Assets/Art/Environment/Interiors/Bathroom/ShowerTray.glb | 2026-11-05 |
+| Bathroom Mirror Frame | 3D Assets | https://3dassets.dev/assets/suburban-outbreak-interiors-bathroom-mirror-frame-785c26a9 | CC0 | No | Assets/Art/Environment/Interiors/Bathroom/MirrorFrame.glb | 2026-11-05 |
+| Sink Unit with Drying Rack | Polyfork | https://polyfork.dev/asset/sink-unit-with-drying-c5d11a | Royalty Free | No | Assets/Art/Environment/Interiors/Bathroom/SinkUnit.glb | 2026-11-05 |
+| Coffee Table Round | 3D Assets | https://3dassets.dev/assets/bedroom-and-living-room-furniture-coffee-table-round-4ab9023a | CC0 | No | Assets/Art/Environment/Interiors/Living/CoffeeTableRound.glb | 2026-11-05 |
+| Coffee Table Rect | 3D Assets | https://3dassets.dev/assets/bedroom-and-living-room-furniture-coffee-table-rect-2efbd4f9 | CC0 | No | Assets/Art/Environment/Interiors/Living/CoffeeTableRect.glb | 2026-11-05 |
+| Table Lamp | Polyfork | https://polyfork.dev/asset/table-lamp-e25998 | Royalty Free | No | Assets/Art/Environment/Interiors/Living/TableLamp.glb | 2026-11-05 |
+| Town Car | Polyfork | https://polyfork.dev/asset/town-car-56eeb6 | Royalty Free | No | Assets/Art/Environment/Props/TownCar.glb | 2026-11-05 |
+| Kei Van | Polyfork | https://polyfork.dev/asset/kei-van-211ed5 | Royalty Free | No | Assets/Art/Environment/Props/KeiVan.glb | 2026-11-05 |
+| Wooden Barricade | 3D Assets | https://3dassets.dev/assets/wipe-day-survival-island-wooden-barricade-2c9360f8 | CC0 | No | Assets/Art/Environment/Props/WoodenBarricade.glb | 2026-11-05 |
+| Metal Trash Can | Polyfork | https://polyfork.dev/asset/metal-trash-can-f57043 | Royalty Free | No | Assets/Art/Environment/Props/MetalTrashCan.glb | 2026-11-05 |
+
 ## Interiors batch (2026-11-05)
 
 | Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
