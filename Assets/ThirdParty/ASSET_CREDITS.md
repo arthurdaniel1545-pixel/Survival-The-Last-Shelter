@@ -20,6 +20,21 @@ Notes:
 - Steel Helmet, Ski Backpack and Plaster Jacket are static props; wearable attachment points and skinning must be configured in Unity.
 - No Unity import, prefab creation, or runtime test has been performed; Unity Editor is unavailable in this environment.
 
+## Interiors batch (2026-11-05)
+
+| Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
+|---|---|---|---|---|---|---|
+| Interior Partition Wall | Polyfork | https://polyfork.dev/asset/interior-partition-wall-aa00ff | Royalty Free | No | Assets/Art/Environment/Interiors/Walls/InteriorPartitionWall.glb | 2026-11-05 |
+| Room Recessed Shelf Wall | 3D Assets | https://3dassets.dev/assets/suburban-outbreak-interiors-room-recessed-shelf-wall-2f9b4393 | CC0 | No | Assets/Art/Environment/Interiors/Walls/RoomRecessedShelfWall.glb | 2026-11-05 |
+| Bedside Table | Polyfork | https://polyfork.dev/asset/bedside-table-740c6b | Royalty Free | No | Assets/Art/Environment/Interiors/Furniture/BedsideTable.glb | 2026-11-05 |
+| Open Kitchen Shelf | Polyfork | https://polyfork.dev/asset/open-kitchen-shelf-f751de | Royalty Free | No | Assets/Art/Environment/Interiors/Kitchen/OpenKitchenShelf.glb | 2026-11-05 |
+| Kitchen Cabinet | Alstra Infinite (BlenderKit) | https://www.blendkit.com/asset-gallery-detail/1de7c416-bc0c-425e-8b70-e480d528acfe/ | Royalty Free | No | Assets/Art/Environment/Interiors/Kitchen/KitchenCabinet.glb | 2026-11-05 |
+| Library Shelf Run | Polyfork | https://polyfork.dev/asset/library-shelf-run-570904 | Royalty Free | No | Assets/Art/Environment/Interiors/Living/LibraryShelfRun.glb | 2026-11-05 |
+| Shop Counter | 3D Assets | https://3dassets.dev/assets/medieval-mmo-starter-realm-shop-counter-21030a3c | CC0 | No | Assets/Art/Environment/Interiors/Shop/ShopCounter.glb | 2026-11-05 |
+| Glass-Door Drinks Fridge | Polyfork | https://polyfork.dev/asset/glass-door-drinks-fridge-21f077 | Royalty Free | No | Assets/Art/Environment/Interiors/Shop/GlassDoorDrinksFridge.glb | 2026-11-05 |
+| Barter Counter | 3D Assets | https://3dassets.dev/assets/trading-post-and-barter-market-barter-counter-9cd0d597 | CC0 | No | Assets/Art/Environment/Interiors/Shop/BarterCounter.glb | 2026-11-05 |
+| Over Bed Table | 3D Assets | https://3dassets.dev/assets/care-home-and-day-room-over-bed-table-bb5c43e9 | CC0 | No | Assets/Art/Environment/Interiors/Clinic/OverBedTable.glb | 2026-11-05 |
+
 ## Environment batch 2 (2026-11-05)
 
 | Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
