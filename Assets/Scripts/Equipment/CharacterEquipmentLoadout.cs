@@ -31,6 +31,13 @@ namespace SurvivalTheLastShelter.Equipment
             return true;
         }
 
+        public void EquipStarterItem(EquipmentSlot slot, string itemId)
+        {
+            if (string.IsNullOrWhiteSpace(itemId)) return;
+            equippedItems.RemoveAll(entry => entry == null || entry.Slot == slot);
+            equippedItems.Add(new EquippedItemEntry { Slot = slot, ItemId = itemId });
+        }
+
         public bool Unequip(EquipmentSlot slot)
         {
             return equippedItems.RemoveAll(entry => entry != null && entry.Slot == slot) > 0;
