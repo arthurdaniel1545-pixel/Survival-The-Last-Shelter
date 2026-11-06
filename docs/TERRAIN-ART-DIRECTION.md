@@ -13,6 +13,10 @@
 - Use layered ground materials: dirt, dry grass, gravel, asphalt, concrete, mud and forest floor. Blend edges naturally; avoid obvious repeated stamps.
 - Forests: irregular tree spacing, mixed tree heights, understory, fallen trunks, rocks and small clearings. Keep sightlines and traversable paths.
 - Cities: distinct street blocks, varied building footprints/heights, sidewalks, alleys, damaged roads, walls, fences and believable abandoned props. Avoid repeating the same building or prop in obvious grids.
+- **Interiors are mandatory and enterable.** Buildings must not be empty shells or inaccessible façades: provide real interior spaces that the player can walk through, with doors/entrances, floors, ceilings, room partitions and stairs where appropriate. Prioritise a varied, reusable interior kit for houses/apartments, shops, a clinic and other believable survival locations.
+- Interior furnishing and loot dressing: beds, tables, chairs, sofas, shelves, kitchen units, cupboards, fridges, lamps, bathroom fixtures, office furniture, medical furniture, storage boxes, cabinets and searchable containers. Include damaged/looted variants and restrained clutter; leave clear paths for player movement.
+- Interior gameplay readiness: plan sensible room scale, door widths, navigation space, collision, lighting and hiding/loot spots. Support entering and exiting without loading screens where practical; if a building needs a separate scene for mobile performance, document that clearly and preserve a smooth transition.
+- Not every building needs a unique furnished interior, but each of the 3 cities must contain multiple enterable, furnished buildings. Reuse modular pieces intelligently without making every interior identical. Add a few enterable cabins/shelters as optional forest POIs.
 - Transitions: outskirts, fields, woodland edges, drainage channels and roads should connect regions naturally.
 - Lighting: restrained directional sun, economical shadows, subtle atmospheric depth. Avoid heavy post-processing and excessive real-time lights.
 - Palette: muted greens, dusty earth, weathered concrete, faded paint and restrained rust. Keep gameplay objects readable.
@@ -35,7 +39,7 @@
 - Keep original downloaded files and update Assets/ThirdParty/ASSET_CREDITS.md for every accepted asset.
 
 ## Scene assembly order
-1. A small vertical-slice terrain test area with one road, one forest edge, one hill/rock formation and a few abandoned structures.
+1. A small vertical-slice terrain test area with one road, one forest edge, one hill/rock formation, a few abandoned structures and at least one fully enterable, furnished building interior.
 2. Verify terrain scale, collision, traversal and visual consistency.
 3. Create reusable modular environment prefabs after actual Unity import checks.
 4. Expand into the 3 cities and 2 forests only after the slice performs acceptably.
@@ -46,6 +50,9 @@
 - [ ] No obvious repeated/cloned placement patterns.
 - [ ] Terrain has real relief and walkable collision.
 - [ ] Roads and region transitions connect logically.
+- [ ] At least one complete enterable interior is included in the vertical slice.
+- [ ] Each of the 3 cities has multiple enterable buildings with varied, furnished interiors.
+- [ ] Interior doors, floors, walls, stairs, collision, lighting and player navigation are accounted for.
 - [ ] Asset scale and visual style are consistent.
 - [ ] Mobile texture/material/mesh budgets are documented.
 - [ ] Unity import, prefab and scene tests are explicitly marked as tested or untested.
