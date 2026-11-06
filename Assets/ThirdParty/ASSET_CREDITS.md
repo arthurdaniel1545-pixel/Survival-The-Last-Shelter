@@ -20,6 +20,23 @@ Notes:
 - Steel Helmet, Ski Backpack and Plaster Jacket are static props; wearable attachment points and skinning must be configured in Unity.
 - No Unity import, prefab creation, or runtime test has been performed; Unity Editor is unavailable in this environment.
 
+## Interiors/Exterior batch 4 (2026-11-05)
+
+| Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
+|---|---|---|---|---|---|---|
+| Bed | 3D Assets | https://3dassets.dev/assets/medieval-mmo-starter-realm-bed-0e98fed9 | CC0 | No | Assets/Art/Environment/Interiors/Furniture/Bed.glb | 2026-11-05 |
+| Wardrobe (Medieval) | 3D Assets | https://3dassets.dev/assets/medieval-mmo-starter-realm-wardrobe-7ae1185f | CC0 | No | Assets/Art/Environment/Interiors/Furniture/WardrobeMedieval.glb | 2026-11-05 |
+| Dorm Wardrobe | Polyfork | https://polyfork.dev/asset/dorm-wardrobe-b10546 | Royalty Free | No | Assets/Art/Environment/Interiors/Furniture/DormWardrobe.glb | 2026-11-05 |
+| Wardrobe | Polyfork | https://polyfork.dev/asset/wardrobe-f3b2f2 | Royalty Free | No | Assets/Art/Environment/Interiors/Furniture/Wardrobe.glb | 2026-11-05 |
+| Window Bar Frame | 3D Assets | https://3dassets.dev/assets/modular-survival-base-builder-window-bar-frame-615f5cf3 | CC0 | No | Assets/Art/Environment/Interiors/Walls/WindowBarFrame.glb | 2026-11-05 |
+| Interior Door Leaf | Polyfork | https://polyfork.dev/asset/interior-door-leaf-a02f28 | Royalty Free | No | Assets/Art/Environment/Interiors/Walls/InteriorDoorLeaf.glb | 2026-11-05 |
+| Glazed Cupboard Frame | 3D Assets | https://3dassets.dev/assets/suburban-outbreak-interiors-glazed-cupboard-frame-daad8f22 | CC0 | No | Assets/Art/Environment/Interiors/Walls/GlazedCupboardFrame.glb | 2026-11-05 |
+| Hospital Bed | Polyfork | https://polyfork.dev/asset/hospital-bed-31132d | Royalty Free | No | Assets/Art/Environment/Interiors/Clinic/HospitalBed.glb | 2026-11-05 |
+| Medical Cabinet | 3D Assets | https://3dassets.dev/assets/spaceship-deck-kit-medical-cabinet-e4f4fd46 | CC0 | No | Assets/Art/Environment/Interiors/Clinic/MedicalCabinet.glb | 2026-11-05 |
+| Wheelchair | Polyfork | https://polyfork.dev/asset/wheelchair-0584dc | Royalty Free | No | Assets/Art/Environment/Interiors/Clinic/Wheelchair.glb | 2026-11-05 |
+| Collapse Rubble Mound | Polyfork | https://polyfork.dev/asset/collapse-rubble-mound-4fbfed | Royalty Free | No | Assets/Art/Environment/Props/CollapseRubbleMound.glb | 2026-11-05 |
+| Motel Neon Sign | Polyfork | https://polyfork.dev/asset/motel-neon-sign-bde547 | Royalty Free | No | Assets/Art/Environment/Props/MotelNeonSign.glb | 2026-11-05 |
+
 ## Interiors/Exterior batch 3 (2026-11-05)
 
 | Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
