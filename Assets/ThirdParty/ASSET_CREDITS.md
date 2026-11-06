@@ -20,6 +20,17 @@ Notes:
 - Steel Helmet, Ski Backpack and Plaster Jacket are static props; wearable attachment points and skinning must be configured in Unity.
 - No Unity import, prefab creation, or runtime test has been performed; Unity Editor is unavailable in this environment.
 
+## 3DAssets.dev batch (2026-11-06)
+
+| Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
+|---|---|---|---|---|---|---|
+| Armchair (Cozy Home Interiors) | 3D Assets | https://3dassets.dev/assets/cozy-home-interiors-armchair-53de7ce5 | CC0 1.0 | No | Assets/Art/Environment/Interiors/Living/Armchair.glb | 2026-11-06 |
+| Stairs Short (Dungeon Room Builder) | 3D Assets | https://3dassets.dev/assets/dungeon-room-builder-stairs-short-fb760e4f | CC0 1.0 | No | Assets/Art/Environment/Interiors/Walls/StairsShort.glb | 2026-11-06 |
+| Shipping Container Barricade | 3D Assets | https://3dassets.dev/assets/zombie-quarantine-streets-shipping-container-barricade-f9f58463 | CC0 1.0 | No | Assets/Art/Environment/Props/ShippingContainerBarricade.glb | 2026-11-06 |
+| Broken Concrete Slab | 3D Assets | https://3dassets.dev/assets/demolition-and-site-clearance-demolition-and-site-clea-a6c00957 | CC0 1.0 | No | Assets/Art/Environment/Props/BrokenConcreteSlab.glb | 2026-11-06 |
+| Warning Sign Tripod | 3D Assets | https://3dassets.dev/assets/zombie-quarantine-streets-warning-sign-tripod-c5d7906d | CC0 1.0 | No | Assets/Art/Environment/Props/WarningSignTripod.glb | 2026-11-06 |
+| Debris Field Tile | 3D Assets | https://3dassets.dev/assets/trench-line-1917-debris-field-tile-3340f14d | CC0 1.0 | No | Assets/Art/Environment/Props/DebrisFieldTile.glb | 2026-11-06 |
+
 ## Batch 5 (2026-11-05)
 
 | Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
