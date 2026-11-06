@@ -43,7 +43,6 @@ O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado
 - [Plano de desenvolvimento](docs/ROADMAP.md)
 - [Pipeline gratuito de build Android](docs/BUILD-PIPELINE.md)
 - [Pipeline de assets e servidores MCP](docs/ASSET-PIPELINE.md)
-- [Lista inicial de modelos 3D gratuitos avaliados](docs/ASSET-CANDIDATES.md)
 - [Personagens e equipamentos planejados](docs/CHARACTERS-EQUIPMENT.md)
 - [Instruções para agentes de IA](AGENTS.md)
 - [Skill de busca e integração de assets](skills/survival-game-assets/SKILL.md)
