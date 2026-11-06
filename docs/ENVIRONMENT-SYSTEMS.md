@@ -5,6 +5,13 @@ Scripts added:
 - `DayNightCycle.cs`
 - `WeatherSystem.cs`
 
+## Integration implemented in code
+
+- `DayNightCycle` now updates ambient light intensity.
+- `WeatherSystem` now handles rain and storm audio volumes.
+- `PlayerSurvivalStats` now supports weather exposure drain.
+- `EnemyAIController` now adjusts detection range by night and weather visibility.
+
 ## Unity Editor work still required
 
 - Assign sun, moon, sky gradient and particle systems.

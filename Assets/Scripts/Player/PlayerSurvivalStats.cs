@@ -52,5 +52,19 @@ namespace SurvivalTheLastShelter.Player
         }
 
         public bool IsAlive => Health.Current > 0f;
+
+        public void ApplyWeatherExposure(SurvivalTheLastShelter.Environment.WeatherType weather, bool isNight)
+        {
+            float drain = 0f;
+            if (weather == SurvivalTheLastShelter.Environment.WeatherType.Rain || weather == SurvivalTheLastShelter.Environment.WeatherType.Storm)
+            {
+                drain += 0.02f;
+            }
+            if (isNight)
+            {
+                drain += 0.01f;
+            }
+            Health.DrainPerSecond = Mathf.Max(Health.DrainPerSecond, drain);
+        }
     }
 }

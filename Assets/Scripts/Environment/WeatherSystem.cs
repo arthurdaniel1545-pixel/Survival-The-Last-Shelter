@@ -17,6 +17,9 @@ namespace SurvivalTheLastShelter.Environment
         [SerializeField] private float transitionSeconds = 20f;
         [SerializeField] private ParticleSystem rainParticles;
         [SerializeField] private Light lightningLight;
+        [SerializeField] private AudioSource rainAudio;
+        [SerializeField] private AudioSource stormAudio;
+        [SerializeField] private float rainVolume = 0.6f;
 
         private WeatherType _targetWeather = WeatherType.Clear;
         private float _transitionProgress = 1f;
@@ -47,6 +50,21 @@ namespace SurvivalTheLastShelter.Environment
             {
                 if (raining && !rainParticles.isPlaying) rainParticles.Play();
                 if (!raining && rainParticles.isPlaying) rainParticles.Stop();
+            }
+
+            if (rainAudio != null)
+            {
+                rainAudio.volume = raining ? rainVolume : 0f;
+                if (raining && !rainAudio.isPlaying) rainAudio.Play();
+                if (!raining && rainAudio.isPlaying) rainAudio.Stop();
+            }
+
+            if (stormAudio != null)
+            {
+                bool storm = currentWeather == WeatherType.Storm;
+                stormAudio.volume = storm ? rainVolume : 0f;
+                if (storm && !stormAudio.isPlaying) stormAudio.Play();
+                if (!storm && stormAudio.isPlaying) stormAudio.Stop();
             }
         }
 

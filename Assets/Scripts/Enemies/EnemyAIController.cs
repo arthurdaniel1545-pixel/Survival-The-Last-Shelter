@@ -1,4 +1,5 @@
 using UnityEngine;
+using SurvivalTheLastShelter.Environment;
 
 namespace SurvivalTheLastShelter.Enemies
 {
@@ -19,6 +20,8 @@ namespace SurvivalTheLastShelter.Enemies
         [SerializeField] protected float attackDamage = 10f;
         [SerializeField] protected float detectionRange = 12f;
         [SerializeField] protected Transform[] patrolPoints;
+        [SerializeField] protected DayNightCycle dayNightCycle;
+        [SerializeField] protected WeatherSystem weatherSystem;
 
         protected float CurrentHealth;
         protected EnemyState State = EnemyState.Patrol;
@@ -59,11 +62,19 @@ namespace SurvivalTheLastShelter.Enemies
             }
         }
 
+        protected float GetDetectionRange()
+        {
+            float range = detectionRange;
+            if (dayNightCycle != null && dayNightCycle.IsNight) range *= 1.25f;
+            if (weatherSystem != null) range *= weatherSystem.VisibilityMultiplier;
+            return range;
+        }
+
         protected bool IsTargetVisible(Transform targetTransform)
         {
             if (targetTransform == null) return false;
             float distance = Vector3.Distance(transform.position, targetTransform.position);
-            if (distance > detectionRange) return false;
+            if (distance > GetDetectionRange()) return false;
             Vector3 direction = (targetTransform.position - transform.position).normalized;
             if (Physics.Raycast(transform.position + Vector3.up, direction, out RaycastHit hit, detectionRange))
             {

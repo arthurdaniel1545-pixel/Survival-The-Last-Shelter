@@ -9,6 +9,7 @@ namespace SurvivalTheLastShelter.Environment
         [SerializeField] private Light moon;
         [SerializeField] private Gradient skyColor;
         [SerializeField] private AnimationCurve sunIntensity;
+        [SerializeField] private bool updateAmbientLight = true;
 
         private float _timeOfDay;
 
@@ -30,6 +31,11 @@ namespace SurvivalTheLastShelter.Environment
             {
                 moon.transform.rotation = Quaternion.Euler((_timeOfDay * 360f) + 90f, 170f, 0f);
                 moon.intensity = IsNight ? 0.35f : 0f;
+            }
+
+            if (updateAmbientLight)
+            {
+                RenderSettings.ambientIntensity = IsNight ? 0.35f : 1f;
             }
         }
     }
