@@ -13,6 +13,7 @@
 - [ ] Comparar opções de renderização e definir configurações leves para o Moto G24.
 - [ ] Definir pipeline gratuito para modelos, animações, áudio e testes.
 - [ ] Fixar convenções de pastas, versões e licenças.
+- [x] Definir direção visual do terreno: survival low-poly moderno, densidade equilibrada.
 
 **Critério de saída:** decisão técnica baseada em teste mínimo real. O Unity Build Automation precisa gerar um APK Android dentro da franquia gratuita; se atingir o limite, parar e aguardar a renovação, sem habilitar cobrança. Ver [pipeline de build](BUILD-PIPELINE.md).
 
@@ -21,13 +22,20 @@
 ## Fase 1 — Protótipo de sobrevivência offline
 
 - [ ] Projeto Unity importado e compilado sem erros.
-- [ ] Cena jogável pequena com terreno e câmera.\n- [x] Estrutura de dados para personagem masculino/feminino e personalização de cabelo, pele e olhos.\n- [x] Slots de roupas/equipamentos e roupa básica inicial (dados).\n- [x] Salvamento local do perfil, aparência e loadout do jogador.\n- [ ] Criador visual de personagem conectado a modelos humanoides e materiais.\n- [ ] Encontrar roupas como loot no mapa e atualizar visual ao equipar.
+- [ ] Cena jogável pequena com terreno e câmera.
+- [x] Estrutura de dados para personagem masculino/feminino e personalização de cabelo, pele e olhos.
+- [x] Slots de roupas/equipamentos e roupa básica inicial (dados).
+- [x] Salvamento local do perfil, aparência e loadout do jogador.
+- [ ] Criador visual de personagem conectado a modelos humanoides e materiais.
+- [ ] Encontrar roupas como loot no mapa e atualizar visual ao equipar.
 - [ ] Controles de toque e movimentação.
 - [ ] Vida, fome, sede e energia.
 - [ ] Coleta de madeira, pedra e metal.
 - [ ] Inventário mínimo.
 - [ ] Um zumbi comum com detecção e perseguição.
 - [ ] Salvamento local integrado ao jogo.
+- [ ] Vertical slice ambiental: pequeno terreno com relevo real, trecho de estrada, borda de floresta e estruturas abandonadas usando assets licenciados dos MCPs.
+- [ ] Validar importação GLB, materiais, colisores, escala e desempenho no Unity/Android.
 
 **Critério de saída:** instalar/abrir no Android e jogar um ciclo básico sem internet.
 
