@@ -7,6 +7,7 @@ This file records every external asset imported into the project.
 | SecurityGuard (male survivor candidate) | Gobkit | https://gobkit.com/freebies/human002/SecurityGuard.glb | CC0-1.0 | No | Assets/Art/Characters/Player/SecurityGuard_Male.glb | 2026-11-05 |
 | OfficeLady (female survivor candidate) | Gobkit | https://gobkit.com/freebies/human001/OfficeLady.glb | CC0-1.0 | No | Assets/Art/Characters/Player/OfficeLady_Female.glb | 2026-11-05 |
 | Teen Zombie | Polyfork | https://polyfork.dev/asset/teen-zombie-b5bb27 | Royalty Free | No | Assets/Art/Characters/Enemies/TeenZombie.glb | 2026-11-05 |
+| Teen Zombie (animated derivative) | Project-generated | Derived from TeenZombie.glb | Royalty Free (derived) | No | Assets/Art/Characters/Enemies/TeenZombie_Animated.glb | 2026-11-05 |
 | Slender Grey Xeno (mutant candidate) | 3D Assets | https://3dassets.dev/assets/xeno-species-and-alien-creatures-slender-grey-xeno-b4ce2c20 | CC0 | No | Assets/Art/Characters/Enemies/SlenderGreyXeno_Mutant.glb | 2026-11-05 |
 | Steel Helmet | Polyfork | https://polyfork.dev/asset/steel-helmet-f5aa7d | Royalty Free | No | Assets/Art/Equipment/SteelHelmet.glb | 2026-11-05 |
 | Ski Backpack | 3D Assets | https://3dassets.dev/assets/ski-resort-and-snow-park-backpack-4146e431 | CC0 | No | Assets/Art/Equipment/SkiBackpack.glb | 2026-11-05 |
