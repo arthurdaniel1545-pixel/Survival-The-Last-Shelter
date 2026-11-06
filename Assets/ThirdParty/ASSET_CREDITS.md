@@ -20,6 +20,21 @@ Notes:
 - Steel Helmet, Ski Backpack and Plaster Jacket are static props; wearable attachment points and skinning must be configured in Unity.
 - No Unity import, prefab creation, or runtime test has been performed; Unity Editor is unavailable in this environment.
 
+## Environment batch 2 (2026-11-05)
+
+| Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
+|---|---|---|---|---|---|---|
+| Corner Shop | Polyfork | https://polyfork.dev/asset/corner-shop-5aec8c | Royalty Free | No | Assets/Art/Environment/Buildings/CornerShop.glb | 2026-11-05 |
+| Shopfront Bay Awning | 3D Assets | https://3dassets.dev/assets/pixel-modern-city-street-shopfront-bay-awning-29e0885c | CC0 | No | Assets/Art/Environment/Buildings/ShopfrontAwning.glb | 2026-11-05 |
+| Shop Interior Back Wall Bay | 3D Assets | https://3dassets.dev/assets/pixel-modern-city-street-shop-interior-back-wall-bay-f773b9ce | CC0 | No | Assets/Art/Environment/Buildings/ShopInteriorBackWall.glb | 2026-11-05 |
+| Pine Tall Columnar | 3D Assets | https://3dassets.dev/assets/stylized-trees-and-rocks-kit-pine-columnar-55ce0610 | CC0 | No | Assets/Art/Environment/Vegetation/PineTallColumnar.glb | 2026-11-05 |
+| Pine Wide | 3D Assets | https://3dassets.dev/assets/stylized-trees-and-rocks-kit-pine-spreading-2b39aa69 | CC0 | No | Assets/Art/Environment/Vegetation/PineWide.glb | 2026-11-05 |
+| Tall Pine Tree | Polyfork | https://polyfork.dev/asset/tall-pine-tree-ab4108 | Royalty Free | No | Assets/Art/Environment/Vegetation/TallPineTree.glb | 2026-11-05 |
+| Asphalt Road Tile | Polyfork | https://polyfork.dev/asset/asphalt-road-tile-f6593c | Royalty Free | No | Assets/Art/Environment/Roads/AsphaltRoadTile.glb | 2026-11-05 |
+| Concrete Kerb Section | 3D Assets | https://3dassets.dev/assets/halloween-slasher-street-concrete-kerb-section-ee2da78a | CC0 | No | Assets/Art/Environment/Roads/ConcreteKerbSection.glb | 2026-11-05 |
+| Pedestrian Walkway Tunnel | Polyfork | https://polyfork.dev/asset/pedestrian-walkway-tunnel-0b194e | Royalty Free | No | Assets/Art/Environment/Roads/PedestrianTunnel.glb | 2026-11-05 |
+| Debris Fence Corner Post | 3D Assets | https://3dassets.dev/assets/grand-prix-circuit-and-open-wheel-fence-corner-post-93b206a2 | CC0 | No | Assets/Art/Environment/Props/DebrisFenceCornerPost.glb | 2026-11-05 |
+
 ## Environment batch (2026-11-05)
 
 | Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
