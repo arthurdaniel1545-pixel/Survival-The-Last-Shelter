@@ -31,9 +31,9 @@ O repositório contém agora a estrutura inicial de um projeto Unity, com versã
 
 - Representar cidades, florestas e pontos de interesse.
 - Gerar um layout determinístico com exatamente 3 cidades e 2 florestas obrigatórias, além de pontos extras variáveis.
-- Salvar e carregar o layout localmente em JSON, preservando o mapa gerado.
+- Salvar e carregar o layout localmente em JSON, preservando o mapa gerado.\n- Dados-base de aparência do personagem (masculino/feminino, cabelo, pele e olhos).\n- Definições de peças vestíveis e loadout por slots, incluindo roupa básica inicial.\n- Salvamento local do perfil, aparência e equipamentos do jogador.
 
-**Ainda não existe cena jogável, personagem, sistemas completos de sobrevivência, APK ou teste no Moto G24.** Os scripts foram adicionados ao repositório, mas ainda precisam ser importados e compilados pelo Unity Editor.
+**Ainda não existe cena jogável, modelo 3D integrado, criador visual de personagem, sistemas completos de sobrevivência, APK ou teste no Moto G24.** Os novos scripts são a fundação de dados e salvamento; ainda precisam ser ligados a modelos, materiais, UI e prefabs no Unity Editor. Os scripts foram adicionados ao repositório, mas ainda precisam ser importados e compilados pelo Unity Editor.
 
 O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado como base.
 
