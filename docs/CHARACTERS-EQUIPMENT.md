@@ -78,5 +78,7 @@ Search 3–5 candidates per batch. Prefer CC0; accept attribution licences only 
 
 ## Current status
 - This specification is committed as a production plan.
-- It does not mean any character/equipment binary has been downloaded, imported, turned into a prefab, or tested.
-- Record each actual asset and its licence in `Assets/ThirdParty/ASSET_CREDITS.md`.
+- Approved GLB assets are committed under `Assets/Art/Characters` and `Assets/Art/Equipment`.
+- GLB verification: SecurityGuard and OfficeLady are valid glTF 2.0, rigged, with the expected animation clips. TeenZombie is valid glTF 2.0 but currently has no animation clips in its data. SlenderGreyXeno is valid glTF 2.0, static, no rig.
+- Integration preparation added: `CharacterModelCatalog`, `CharacterAnimationSet`, `ZombieEnemyDefinition`, and a free glTFast dependency entry in `Packages/manifest.json`.
+- No Unity import, prefab, or runtime test has been performed yet. Unity Editor/import behaviour remains unverified.
