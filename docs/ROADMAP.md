@@ -21,7 +21,7 @@
 ## Fase 1 — Protótipo de sobrevivência offline
 
 - [ ] Projeto Unity importado e compilado sem erros.
-- [ ] Cena jogável pequena com terreno e câmera.
+- [ ] Cena jogável pequena com terreno e câmera.\n- [x] Estrutura de dados para personagem masculino/feminino e personalização de cabelo, pele e olhos.\n- [x] Slots de roupas/equipamentos e roupa básica inicial (dados).\n- [x] Salvamento local do perfil, aparência e loadout do jogador.\n- [ ] Criador visual de personagem conectado a modelos humanoides e materiais.\n- [ ] Encontrar roupas como loot no mapa e atualizar visual ao equipar.
 - [ ] Controles de toque e movimentação.
 - [ ] Vida, fome, sede e energia.
 - [ ] Coleta de madeira, pedra e metal.
