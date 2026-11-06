@@ -14,6 +14,13 @@ Scripts added:
 4. Create UI buttons for run, jump and crouch and connect them to `TouchInputController`.
 5. Configure a joystick area on the left side of the screen.
 
+## Character integration
+
+- `PlayerCharacterVisual.cs` selects the male or female GLB path from `CharacterModelCatalog`.
+- `CharacterAnimationSet` provides clip names for Idle, Walk, Run, Attack, Hit and Death.
+- Attachment sockets are prepared for head, back and hands.
+- The selected model must be loaded with glTFast and connected to the same GameObject as `PlayerMovementController`.
+
 ## Not verified
 
 No Unity Editor import, scene setup, prefab creation or runtime test has been performed.
