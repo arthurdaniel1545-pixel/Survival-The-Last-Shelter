@@ -27,13 +27,16 @@ O projeto não dependerá de recursos pagos, créditos de IA ou cobrança por us
 
 ## Estado atual
 
-O repositório contém agora a estrutura inicial de um projeto Unity, com versão do Editor registrada, manifesto mínimo de pacotes, regras de Git e scripts iniciais para:
+O repositório contém a estrutura inicial de um projeto Unity, com versão do Editor registrada, manifesto de pacotes, scripts de mundo, dados de personagem/equipamento e assets GLB reais commitados.
 
-- Representar cidades, florestas e pontos de interesse.
-- Gerar um layout determinístico com exatamente 3 cidades e 2 florestas obrigatórias, além de pontos extras variáveis.
-- Salvar e carregar o layout localmente em JSON, preservando o mapa gerado.\n- Dados-base de aparência do personagem (masculino/feminino, cabelo, pele e olhos).\n- Definições de peças vestíveis e loadout por slots, incluindo roupa básica inicial.\n- Salvamento local do perfil, aparência e equipamentos do jogador.
+- Layout determinístico com exatamente 3 cidades e 2 florestas obrigatórias, além de pontos extras variáveis.
+- Salvamento local do layout do mundo em JSON.
+- Dados-base de aparência do personagem masculino/feminino.
+- Definições de peças vestíveis e loadout por slots, incluindo roupa básica inicial.
+- Salvamento local do perfil, aparência e equipamentos do jogador.
+- Modelos de personagens e equipamentos em `Assets/Art/`; a integração e reprodução no Unity ainda não foram verificadas.
 
-**Ainda não existe cena jogável, modelo 3D integrado, criador visual de personagem, sistemas completos de sobrevivência, APK ou teste no Moto G24.** Os novos scripts são a fundação de dados e salvamento; ainda precisam ser ligados a modelos, materiais, UI e prefabs no Unity Editor. Os scripts foram adicionados ao repositório, mas ainda precisam ser importados e compilados pelo Unity Editor.
+**Ainda não existe cena jogável, criador visual conectado aos modelos, sistemas completos de sobrevivência, APK ou teste no Moto G24.** Os scripts e assets precisam ser importados, configurados e testados pelo Unity Editor.
 
 O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado como base.
 
@@ -41,13 +44,14 @@ O protótipo anterior `zombie-survival-godot.` foi descartado e não será usado
 
 - [Conceito e sistemas](docs/CONCEPT.md)
 - [Plano de desenvolvimento](docs/ROADMAP.md)
+- [Direção visual aprovada para o terreno](docs/TERRAIN-ART-DIRECTION.md)
 - [Pipeline gratuito de build Android](docs/BUILD-PIPELINE.md)
 - [Pipeline de assets e servidores MCP](docs/ASSET-PIPELINE.md)
 - [Personagens e equipamentos planejados](docs/CHARACTERS-EQUIPMENT.md)
 - [Instruções para agentes de IA](AGENTS.md)
 - [Skill de busca e integração de assets](skills/survival-game-assets/SKILL.md)
 - [Skill de desenvolvimento de sistemas Unity para sobrevivência](skills/unity-survival-systems/SKILL.md)
-- [Skills upstream de game dev (Unity e disciplinas)](https://github.com/gamedev-skills/awesome-gamedev-agent-skills)
+- [Skills upstream de game dev](https://github.com/gamedev-skills/awesome-gamedev-agent-skills)
 - [Exemplos oficiais Unity Character Controller](https://github.com/Unity-Technologies/CharacterControllerSamples)
 
 ## Princípios técnicos
