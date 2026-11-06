@@ -20,6 +20,21 @@ Notes:
 - Steel Helmet, Ski Backpack and Plaster Jacket are static props; wearable attachment points and skinning must be configured in Unity.
 - No Unity import, prefab creation, or runtime test has been performed; Unity Editor is unavailable in this environment.
 
+## Batch 5 (2026-11-05)
+
+| Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
+|---|---|---|---|---|---|---|
+| Sofa | Polyfork | https://polyfork.dev/asset/sofa-9c0e7e | Royalty Free | No | Assets/Art/Environment/Interiors/Living/Sofa.glb | 2026-11-05 |
+| Reading Corner Child Sofa | 3D Assets | https://3dassets.dev/assets/nursery-and-primary-classroom-reading-corner-sofa-c0acbb18 | CC0 | No | Assets/Art/Environment/Interiors/Living/ChildSofa.glb | 2026-11-05 |
+| Overturned Bus Shell | 3D Assets | https://3dassets.dev/assets/zombie-quarantine-streets-overturned-bus-shell-4aed8bc3 | CC0 | No | Assets/Art/Environment/Props/OverturnedBusShell.glb | 2026-11-05 |
+| Campus Shuttle Bus | Polyfork | https://polyfork.dev/asset/campus-shuttle-bus-27dcaa | Royalty Free | No | Assets/Art/Environment/Props/CampusShuttleBus.glb | 2026-11-05 |
+| Rubble Pile | 3D Assets | https://3dassets.dev/assets/sunken-city-and-underwater-ruins-rubble-pile-2bfa3df8 | CC0 | No | Assets/Art/Environment/Props/RubblePile.glb | 2026-11-05 |
+| Breach Rubble Pile | 3D Assets | https://3dassets.dev/assets/medieval-siege-and-castle-defence-rubble-breach-pile-ab226771 | CC0 | No | Assets/Art/Environment/Props/BreachRubblePile.glb | 2026-11-05 |
+| Ceiling Light Well | 3D Assets | https://3dassets.dev/assets/modular-greybox-architecture-kit-ceiling-light-well-fac57af4 | CC0 | No | Assets/Art/Environment/Interiors/Walls/CeilingLightWell.glb | 2026-11-05 |
+| Ceiling Coffer | 3D Assets | https://3dassets.dev/assets/modular-greybox-architecture-kit-ceiling-coffer-beam-cadfab3b | CC0 | No | Assets/Art/Environment/Interiors/Walls/CeilingCoffer.glb | 2026-11-05 |
+| Ceiling Tile | 3D Assets | https://3dassets.dev/assets/modular-greybox-architecture-kit-ceiling-tile-4m-be7f25c5 | CC0 | No | Assets/Art/Environment/Interiors/Walls/CeilingTile.glb | 2026-11-05 |
+| Lab Floor Tile | Polyfork | https://polyfork.dev/asset/lab-floor-tile-ad0da8 | Royalty Free | No | Assets/Art/Environment/Interiors/Walls/LabFloorTile.glb | 2026-11-05 |
+
 ## Interiors/Exterior batch 4 (2026-11-05)
 
 | Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
