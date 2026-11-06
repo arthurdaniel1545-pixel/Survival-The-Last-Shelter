@@ -20,6 +20,15 @@ Notes:
 - Steel Helmet, Ski Backpack and Plaster Jacket are static props; wearable attachment points and skinning must be configured in Unity.
 - No Unity import, prefab creation, or runtime test has been performed; Unity Editor is unavailable in this environment.
 
+## 3D Valley batch (2026-11-06)
+
+| Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
+|---|---|---|---|---|---|---|
+| Barricade Doorway B | Kenney | https://3dvalley.com/3d-models?asset=kn%3Abuilding-kit.barricade-doorway-b | CC0 1.0 | No | Assets/Art/Environment/Props/BarricadeDoorwayB.glb | 2026-11-06 |
+| Detail Barrier Strong Damaged | Kenney | https://3dvalley.com/3d-models?asset=kn%3Aretro-urban-kit.detail-barrier-strong-damaged | CC0 1.0 | No | Assets/Art/Environment/Props/DamagedBarrierStrong.glb | 2026-11-06 |
+| Debris Broken Car | Quaternius | https://3dvalley.com/3d-models?asset=qt%3Atoonshootergamekit.Debris_BrokenCar | CC0 1.0 | No | Assets/Art/Environment/Props/DebrisBrokenCar.glb | 2026-11-06 |
+| Debris | Kenney | https://3dvalley.com/3d-models?asset=kn%3Agraveyard-kit.debris | CC0 1.0 | No | Assets/Art/Environment/Props/GraveyardDebris.glb | 2026-11-06 |
+
 ## 3DAssets.dev batch (2026-11-06)
 
 | Asset | Creator | Source URL | Licence | Attribution required | Project path | Download date |
