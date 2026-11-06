@@ -57,9 +57,21 @@ Construção deve usar peças modulares e posicionamento simples, adequado a con
 
 A criatura cega precisa de regras legíveis: sons têm alcance e intensidade, e o jogador deve conseguir entender por que foi detectado.
 
+## Criação e personalização do sobrevivente
+
+Ao iniciar uma nova partida, o jogador escolhe um personagem masculino ou feminino. A criação do personagem permite personalizar:
+- Cabelo: estilo e cor.
+- Pele: diferentes tons de pele.
+- Olhos: cor dos olhos.
+- Outros detalhes visuais compatíveis com o estilo e o desempenho do jogo poderão ser acrescentados.
+
+A aparência deve ser humanoide, com proporções humanas e estilo 3D low-poly moderno moderadamente estilizado. Não usar personagens quadrados, blocky ou com aparência de brinquedo. Também não é necessário buscar realismo fotográfico: o objetivo é um visual convincente, legível e otimizado para Android.
+
+O sobrevivente começa com uma roupa básica. Roupas adicionais são encontradas explorando o mapa — por exemplo, em casas, lojas, armários, acampamentos e depósitos. O jogador poderá vestir, retirar e trocar peças encontradas, preferencialmente por partes independentes (camisa/jaqueta, calça, calçado, cabeça e mochila).
+
 ## Equipamentos
 
-Mochilas, capacetes, coletes e roupas de proteção alteram capacidade de carga ou resistência. Armas são encontradas durante a exploração; balanceamento e disponibilidade serão definidos no protótipo.
+Mochilas, capacetes, coletes e roupas de proteção alteram capacidade de carga ou resistência. Armas são encontradas durante a exploração; balanceamento e disponibilidade serão definidos no protótipo. A roupa inicial é simples; equipamentos melhores e roupas alternativas devem ser obtidos no mundo, não entregues todos no início.
 
 ## Direção visual
 
